@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import Banner from "./pages/Home/Banner/Banner";
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
         <title>GadgetGlow | Home</title>
         <link rel="canonical" href="https://www.tacobell.com/" />
       </Helmet>
-      <h1>Gadget Glow</h1>
+      <Banner></Banner>
     </div>
   );
 }
